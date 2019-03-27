@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UB ASSET MANAGMENT</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/filter.css" type="text/css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            var vheight = $('.hidden-video').height();
+            $('.hideen-video video').css({ 'height': vheight });
+            $('select').formSelect();
+            $(window).scroll(function () {
+                var topPos = $(this).scrollTop();
+                if (topPos > 30) {
+                    $('header').addClass('scrolled')
+                } else {
+                    $('header').removeClass('scrolled')
+                }
+            });
+            $('.collapsible').collapsible();
+
+            $('.collapsible-header').on('click', function () {
+                $('.collapsible-header i').text('add');
+                $('.collapsible-header').css({ color: '#333' });
+                $(this).find('i').text('remove');
+                $(this).css({ color: '#0062ff' });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="header with-search">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="search-group">
+                            <input type="search" name="" id=""
+                                placeholder="Дүүрэг, Хороо болон хотхоны нэрийг оруулна уу!" />
+                        </div>
+                        <div class="group-button">
+                            <a href="login.html">
+                                Нэвтрэх
+                            </a>
+                            <a href="" class="blue-background blue-border mdl-button--raised mdl-js-ripple-effect">
+                                Бүртгүүлэх
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="contents">
+            <div class="new-filter container">
+                <div class="basic-selects">
+                    <div class="basic-select">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                M2, Үнэ
+                            </div>
+                            <div class="select-body">
+                                <div class="two-column-body">
+                                    <div class="body-border two-grid">
+                                        <ul>
+                                            <li>
+                                                35 - 45 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                45 - 55 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                55 - 65 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                65 - 75 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                85 - 95 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                95 - 105 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                105 - 115 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                115 - 125 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                125 - 135 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                135 - 145 m<sup>2</sup>
+                                            </li>
+                                            <li>
+                                                145 - 155 m<sup>2</sup>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                1,5 - 2,5 сая
+                                            </li>
+                                            <li>
+                                                1,5 - 2,5 сая
+                                            </li>
+                                            <li>
+                                                1,5 - 2,5 сая
+                                            </li>
+                                            <li>
+                                                1,5 - 2,5 сая
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                Дүүрэг, хороо
+                            </div>
+                            <div class="select-body">
+                                <div class="two-column-with-arrow-body">
+                                    <div class="body-border two-grid">
+                                        <ul>
+                                            <li>
+                                                Багануур
+                                                <ul>
+                                                    <li>
+                                                        1-р хороо
+                                                    </li>
+                                                    <li>
+                                                        2-рхороо
+                                                    </li>
+                                                    <li>
+                                                        3-р хороо
+                                                    </li>
+                                                    <li>
+                                                        4-р хороо
+                                                    </li>
+                                                    <li>
+                                                        5-р хороо
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Багахангай
+                                                <ul>
+                                                    <li>
+                                                        1-р хороо
+                                                    </li>
+                                                    <li>
+                                                        2-рхороо
+                                                    </li>
+                                                    <li>
+                                                        3-р хороо
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Баянгол
+                                                <ul>
+                                                    <li>
+                                                        1-р хороо
+                                                    </li>
+                                                    <li>
+                                                        2-рхороо
+                                                    </li>
+                                                    <li>
+                                                        3-р хороо
+                                                    </li>
+                                                    <li>
+                                                        4-р хороо
+                                                    </li>
+                                                    <li>
+                                                        5-р хороо
+                                                    </li>
+                                                    <li>
+                                                        6-р хороо
+                                                    </li>
+                                                    <li>
+                                                        7-р хороо
+                                                    </li>
+                                                    <li>
+                                                        8-р хороо
+                                                    </li>
+                                                    <li>
+                                                        9-р хороо
+                                                    </li>
+                                                    <li>
+                                                        10-р хороо
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Баянзүрх
+                                            </li>
+                                            <li>
+                                                Налайх
+                                            </li>
+                                            <li>
+                                                Сонгинохайрхан
+                                            </li>
+                                            <li>
+                                                Сүхбаатар
+                                            </li>
+                                            <li>
+                                                Хан-Уул
+                                            </li>
+                                            <li>
+                                                Чингэлтэй
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                Байршил, Хотхон
+                            </div>
+                            <div class="select-body">
+                                <div class="two-side-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                 Хүнсний 4 дэлгүүр
+                                                <div class="hover-padding">
+                                                    <div class="body-border">
+                                                        <ul>
+                                                            <li>
+                                                                Encanto Town
+                                                            </li>
+                                                            <li>
+                                                                River garden
+                                                            </li>
+                                                            <li>
+                                                                Mandala Town
+                                                            </li>
+                                                            <li>
+                                                                Time Square
+                                                            </li>
+                                                            <li>
+                                                                Stars Town
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                Мэргэжилтний 20
+                                                <div class="hover-padding">
+                                                    <div class="body-border">
+                                                        <ul>
+                                                            <li>
+                                                                1-р хороо
+                                                            </li>
+                                                            <li>
+                                                                2-рхороо
+                                                            </li>
+                                                            <li>
+                                                                3-р хороо
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                Оффицеруудын ордон
+                                                <div class="hover-padding">
+                                                    <div class="body-border">
+                                                        <ul>
+                                                            <li>
+                                                                1-р хороо
+                                                            </li>
+                                                            <li>
+                                                                2-рхороо
+                                                            </li>
+                                                            <li>
+                                                                3-р хороо
+                                                            </li>
+                                                            <li>
+                                                                4-р хороо
+                                                            </li>
+                                                            <li>
+                                                                5-р хороо
+                                                            </li>
+                                                            <li>
+                                                                6-р хороо
+                                                            </li>
+                                                            <li>
+                                                                7-р хороо
+                                                            </li>
+                                                            <li>
+                                                                8-р хороо
+                                                            </li>
+                                                            <li>
+                                                                9-р хороо
+                                                            </li>
+                                                            <li>
+                                                                10-р хороо
+                                                            </li>
+                                                            <li>
+                                                                10-р хороо
+                                                            </li>
+                                                            <li>
+                                                                10-р хороо
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                Шар хад
+                                            </li>
+                                            <li>
+                                                5 шар
+                                            </li>
+                                            <li>
+                                                Багшийн дээд
+                                            </li>
+                                            <li>
+                                                Зайсан
+                                            </li>
+                                            <li>
+                                                Төмөр зам
+                                            </li>
+                                            <li>
+                                                25р эмийн сан
+                                            </li>
+                                            <li>
+                                                120 мянгат
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <b>Координат</b>
+                                <span>Өгөгдөлийг энд оруулна уу!</span>
+                            </div>
+                            <div class="select-body"></div>
+                        </div>
+                    </div>
+                    <div class="basic-select">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                Нүүж ороход бэлэн эсэх
+                            </div>
+                            <div class="select-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-selects">
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n1.png" alt="">
+                                    <p>Байрлах <br /> давхар</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n2.png" alt="">
+                                    <p>Унтлагын <br /> өрөө</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n3.png" alt="">
+                                    <p>Шүршүүр/ванн <br /> тоо</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                <img src="assets/images/icons/n3.png" alt="">
+                                            </li>
+                                            <li>
+                                                <img src="assets/images/icons/n3.png" alt="">
+                                            </li>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n4.png" alt="">
+                                    <p>00ийн <br /> өрөө</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n5.png" alt="">
+                                    <p>Цонхны харах <br /> зүг чиг/тоо</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n6.png" alt="">
+                                    <p>Байрлах <br /> давхар</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n7.png" alt="">
+                                    <p>Байрлах <br /> давхар</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basic-select icon">
+                        <div class="basic-select-container">
+                            <div class="select-header">
+                                <div class="icon-container">
+                                    <img src="assets/images/icons/n8.png" alt="">
+                                    <p>Байрлах <br /> давхар</p>
+                                </div>
+                            </div>
+                            <div class="select-body">
+                                <div class="two-grid-body">
+                                    <div class="body-border">
+                                        <ul>
+                                            <li>
+                                                1
+                                            </li>
+                                            <li>
+                                                2
+                                            </li>
+                                            <li>
+                                                3
+                                            </li>
+                                            <li>
+                                                4
+                                            </li>
+                                            <li>
+                                                5
+                                            </li>
+                                            <li>
+                                                6
+                                            </li>
+                                            <li>
+                                                7
+                                            </li>
+                                            <li>
+                                                8
+                                            </li>
+                                            <li>
+                                                10
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-five">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-five">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k1.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k2.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k3.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k4.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="">
+                                    <div class="img-container">
+                                        <img src="assets/images/k5.png" width="100%">
+                                        <div class="heart">
+                                            <i class="material-icons">
+                                                favorite_border
+                                            </i>
+                                        </div>
+                                        <div class="beds">
+                                            <i class="material-icons">
+                                                hotel
+                                            </i>
+                                            2
+                                        </div>
+                                        <div class="plans">
+                                            <i class="material-icons">
+                                                domain
+                                            </i> 7
+                                        </div>
+                                    </div>
+                                    <h3>City Apartment</h3>
+                                    <p>1,500,000₮</p>
+                                    <span>34mk<sup>2</sup> - 75mk <sup>2</sup></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
