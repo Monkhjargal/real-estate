@@ -36,6 +36,12 @@ ul {
     overflow: initial;
 }
 
+.not-slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
 .new-filter .lSAction>a {
     height: 130px !important;
     padding: 0;
@@ -191,7 +197,7 @@ ul {
 }
 
 .basic-select .basic-select-container:hover .select-body {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 /* end basic select */
