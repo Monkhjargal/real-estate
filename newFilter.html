@@ -98,14 +98,14 @@
                     $('header').removeClass('scrolled')
                 }
             });
-            $('.basic-select').each(function (index, value) {
-                $(this).find('.basic-select-container').on('click', function () {
-                    console.log('hi' + index);
-                    $('.basic-select .basic-select-container .select-body').hide();
-                    $(this).find('.select-body').toggle();
-                    // $(this).find('.basic-select-container > .select-body').show();
-                });
-            })
+            // $('.basic-select').each(function (index, value) {
+            //     $(this).find('.basic-select-container').on('click', function () {
+            //         console.log('hi' + index);
+            //         $('.basic-select .basic-select-container .select-body').hide();
+            //         $(this).find('.select-body').toggle();
+            //         // $(this).find('.basic-select-container > .select-body').show();
+            //     });
+            // });
             $('.advanced-search').on('click', function () {
                 var as = $(this);
                 if (typeof (as.attr('isOpen')) === 'string' && parseInt(as.attr('isOpen')) === 0) {

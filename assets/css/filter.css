@@ -197,7 +197,7 @@ ul {
 }
 
 .basic-select .basic-select-container:hover .select-body {
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 /* end basic select */
