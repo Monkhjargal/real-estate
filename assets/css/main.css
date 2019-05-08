@@ -1565,6 +1565,165 @@ form.loan a:hover {
     display: none;
 }
 
+@media (max-width: 1024px) {
+    .header .group-button a {
+        width: 80px;
+        min-width: 100px;
+        padding: 0;
+    }
+
+    .top-items {
+        width: 100%;
+    }
+
+    .top-search .row button {
+        width: 90px;
+        height: 60px;
+    }
+
+    .top-search .input-field .prefix {
+        display: none;
+    }
+
+    .top-search input[type=text]:not(.browser-default) {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 60px;
+    }
+
+    .top-search .input-field>label {
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+    }
+
+    .customs {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .grid-five .grid-container,
+    .footer-menus ul,
+    .grid-four .grid-container,
+    .doc-items .four,
+    .doc-items .three,
+    .doc-items .two {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .doc-items .four,
+    .doc-items .three,
+    .doc-items .two {
+        grid-template-columns: 1fr !important;
+        grid-column-gap: 5px;
+        text-align: center;
+    }
+
+    .doc-items {
+        padding: 0px 20px;
+    }
+
+    .doc-item b {
+        width: 100%;
+    }
+
+    .profile-document h3 {
+        width: 90%;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .blue-input {
+        width: 100%;
+    }
+
+    .search-group {
+        display: none;
+    }
+
+    .header.logged .group-button a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .col-md-9 {
+        padding-left: 0;
+    }
+
+    .profile-top {
+        padding: 30px 20px;
+    }
+
+    .profile-top img {
+        width: 100px;
+    }
+
+    .profile-container.step1 img {
+        width: 200px;
+    }
+
+    .profile-form .row {
+        display: block;
+    }
+
+    .profile-form .col.s4 {
+        width: 100%;
+    }
+
+    .profile-form form .profile-form-input input {
+        width: 100% !important;
+    }
+
+    .profile-form form .profile-form-input {
+        display: block;
+    }
+
+    .top-content h3,
+    .top-content h3 b {
+        font-size: 20px;
+    }
+
+    .top-content p {
+        font-size: 18px;
+    }
+
+    .hidden-video {
+        right: -40%;
+        top: -55%;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .detail-container {
+        display: block;
+    }
+
+    .detail-images,
+    .detail-info {
+        width: 100%;
+    }
+
+    .agent-image {
+        flex-wrap: wrap;
+    }
+
+    .agent-image img {
+        margin-bottom: 10px;
+    }
+
+    .modal {
+        bottom: 0;
+    }
+
+    .profile-dropdown {
+        z-index: 10;
+    }
+
+    .group-button .profile-logged .profile-dropdown ul li a {
+        width: 100%;
+    }
+}
+
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .header .group-button a {
