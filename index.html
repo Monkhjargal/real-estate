@@ -9,20 +9,23 @@
     <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
     <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/filter.css" type="text/css">
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/lib/thumb/js/lightslider.js"></script>
+    <script src="assets/js/fitler.js"></script>
     <script>
         $(function () {
             var vheight = $('.hidden-video').height();
@@ -53,7 +56,8 @@
                             <a href="login.html">
                                 Нэвтрэх
                             </a>
-                            <a href="" class="blue-background blue-border mdl-button--raised mdl-js-ripple-effect">
+                            <a href="" class="blue-background blue-border mdl-button--raised mdl-js-ripple-effect"
+                                data-toggle="modal" data-target="#exampleModal">
                                 Бүртгүүлэх
                             </a>
                         </div>
@@ -85,9 +89,9 @@
                                                         оруулна уу
                                                     </label>
                                                 </div>
-                                                <button class="btn waves-effect waves-light blue lighten-5" type="submit"
-                                                    name="action">
-                                                    <a href="filter-icon.html">
+                                                <button class="btn waves-effect waves-light blue lighten-5"
+                                                    type="submit" name="action">
+                                                    <a href="newFilter.html">
                                                         Хайх
                                                     </a>
                                                 </button>
@@ -104,8 +108,190 @@
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>
-                        <div class="top-filter">
-                            <div class="filter-item">
+                        <div class="new-filter home">
+                            <div class="customs">
+                                <div class="custom-basic-select">
+                                    <div class="custom-select-title">
+                                        M2, Үнэ
+                                        <div class="selected-value"></div>
+                                    </div>
+                                    <div class="custom-select-options">
+                                        <div class="custom-select-item">
+                                            <ul>
+                                                <li data-id='0'>35 - 45 m2</li>
+                                                <li data-id='1'>35 - 45 m2</li>
+                                                <li data-id='2'>35 - 45 m2</li>
+                                                <li data-id='3'>35 - 45 m2</li>
+                                                <li data-id='4'>35 - 45 m2</li>
+                                                <li data-id='5'>35 - 45 m2</li>
+                                                <li data-id='6'>35 - 45 m2</li>
+                                                <li data-id='7'>35 - 45 m2</li>
+                                                <li data-id='8'>35 - 45 m2</li>
+                                            </ul>
+                                            <div class="options" data-id="0">
+                                                <div class="option" data-value='1-2 сая'>
+                                                    1-2 сая
+                                                </div>
+                                                <div class="option" data-value='2-3 сая'>
+                                                    2-3 сая
+                                                </div>
+                                                <div class="option" data-value='3-4 сая'>
+                                                    3-4 сая
+                                                </div>
+                                                <div class="option" data-value='5-6 сая'>
+                                                    5-6 сая
+                                                </div>
+                                            </div>
+                                            <div class="options" data-id="1">
+                                                <div class="option" data-value='10-20 сая'>
+                                                    10-20 сая
+                                                </div>
+                                                <div class="option" data-value='20-30 сая'>
+                                                    20-30 сая
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="custom-basic-select">
+                                    <div class="custom-select-title">
+                                        Дүүрэг, хороо
+                                        <div class="selected-value"></div>
+                                    </div>
+                                    <div class="custom-select-options">
+                                        <div class="custom-select-item arrow">
+                                            <ul>
+                                                <li data-id='9'>Багануур</li>
+                                                <li data-id='10'>Багахангай</li>
+                                                <li data-id='11'>Баянгол</li>
+                                                <li data-id='12'>Баянзүрх</li>
+                                                <li data-id='13'>Налайх</li>
+                                                <li data-id='14'>Сонгинохайрхан</li>
+                                                <li data-id='15'>Сүхбаатар</li>
+                                                <li data-id='16'>Хан-Уул</li>
+                                                <li data-id='17'>Чингэлтэй</li>
+                                            </ul>
+                                            <div class="options" data-id="9">
+                                                <div class="option" data-value='1-р хороо'>
+                                                    1-р хороо
+                                                </div>
+                                                <div class="option" data-value='2-р хороо'>
+                                                    2-р хороо
+                                                </div>
+                                                <div class="option" data-value='3-р хороо'>
+                                                    3-р хороо
+                                                </div>
+                                                <div class="option" data-value='4-р хороо'>
+                                                    4-р хороо
+                                                </div>
+                                            </div>
+                                            <div class="options" data-id="10">
+                                                <div class="option" data-value='1-р хороо'>
+                                                    1-р хороо
+                                                </div>
+                                                <div class="option" data-value='2-р хороо'>
+                                                    2-р хороо
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="custom-basic-select">
+                                    <div class="custom-select-title">
+                                        Байршил, Хотхон
+                                        <div class="selected-value"></div>
+                                    </div>
+                                    <div class="custom-select-options">
+                                        <div class="custom-select-item arrow">
+                                            <ul>
+                                                <li data-id='9'>Хүнсний 4 дэлгүүр</li>
+                                                <li data-id='10'>Мэргэжилтний 20</li>
+                                                <li data-id='11'>Оффицеруудын ордон</li>
+                                                <li data-id='12'>Баянзүрх</li>
+                                                <li data-id='13'>Налайх</li>
+                                                <li data-id='14'>Сонгинохайрхан</li>
+                                                <li data-id='15'>Сүхбаатар</li>
+                                                <li data-id='16'>Хан-Уул</li>
+                                                <li data-id='17'>Чингэлтэй</li>
+                                            </ul>
+                                            <div class="options" data-id="9">
+                                                <div class="option" data-value='1-р хороо'>
+                                                    1-р хороо
+                                                </div>
+                                                <div class="option" data-value='2-р хороо'>
+                                                    2-р хороо
+                                                </div>
+                                                <div class="option" data-value='3-р хороо'>
+                                                    3-р хороо
+                                                </div>
+                                                <div class="option" data-value='4-р хороо'>
+                                                    4-р хороо
+                                                </div>
+                                            </div>
+                                            <div class="options" data-id="10">
+                                                <div class="option" data-value='1-р хороо'>
+                                                    1-р хороо
+                                                </div>
+                                                <div class="option" data-value='2-р хороо'>
+                                                    2-р хороо
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="custom-basic-select">
+                                    <div class="custom-select-title">
+                                        <div>
+                                            Координат
+                                            <!-- <span>Өгөгдөлийг энд оруулна уу!</span> -->
+                                        </div>
+                                        <div class="selected-value"></div>
+                                    </div>
+                                    <div class="custom-select-options">
+                                        <!-- <div class="custom-select-item"> -->
+                                        <div class="option" data-value='35 - 45 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='45 - 55 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='55 - 65 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='55 - 65 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+
+                                <div class="custom-basic-select">
+                                    <div class="custom-select-title">
+                                        Нүүж ороход бэлэн эсэх
+                                        <div class="selected-value"></div>
+                                    </div>
+                                    <div class="custom-select-options">
+                                        <!-- <div class="custom-select-item"> -->
+                                        <div class="option" data-value='35 - 45 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='45 - 55 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='55 - 65 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <div class="option" data-value='55 - 65 m2'>
+                                            35 - 45 m2
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="filter-item">
                                 <div class="input-field col s12">
                                     <select>
                                         <option value="" disabled selected>Байрны хэмжээ</option>
@@ -154,7 +340,7 @@
                                         <option value="3">Option 3</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -184,7 +370,7 @@
                     <div class="row">
                         <div class="grid-container">
                             <div class="grid-item">
-                                <a href="">
+                                <a href="detail.html">
                                     <div class="img-container">
                                         <img src="assets/images/k1.png" width="100%">
                                         <div class="heart">
@@ -1066,6 +1252,50 @@
                 <i class="fab fa-behance"></i>
                 <i class="fab fa-linkedin-in"></i>
                 <i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-top">
+                        <img src="assets/images/logo.png" alt="">
+                        <p>
+                            Сайн байна уу!<br />
+                            Эрхэм хэрэглэгч та дэлгэрэнгүй мэдээлэл<br />
+                            авахыг хүсвэл нэвтэрч орно уу.
+                        </p>
+                    </div>
+                    <div class="modal-middle">
+                        <div class="gmail-button mdl-button">
+                            <img src="assets/images/gmail.png" height="20px"/> <span>gmail</span>
+                        </div>
+                        <div class="facebook-button mdl-button">
+                            <img src="assets/images/facebook.png" height="20px"/> <span>facebook</span>
+                        </div>
+                    </div>
+
+                    <div class="divide-or">
+                        <span>Эсвэл</span>
+                    </div>
+
+                    <form class="modal-form">
+                        <input type="text" placeholder="Мэйл хаяг" />
+                        <input type="password" placeholder="Нууц үг" />
+                        <div class="form-button">
+                            <button>Нэвтрэх</button>
+                            <button>Бүртгүүлэх</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>

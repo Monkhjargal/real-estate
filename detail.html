@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UB ASSET MANAGMENT</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/lib/thumb/js/lightslider.js"></script>
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                var topPos = $(this).scrollTop();
+                if (topPos > 30) {
+                    $('header').addClass('scrolled')
+                } else {
+                    $('header').removeClass('scrolled')
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="header with-search">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="search-group">
+                            <input type="search" name="" id=""
+                                placeholder="Дүүрэг, Хороо болон хотхоны нэрийг оруулна уу!" />
+                        </div>
+                        <div class="group-button">
+                            <a href="login.html">
+                                Нэвтрэх
+                            </a>
+                            <a href="" class="blue-background blue-border mdl-button--raised mdl-js-ripple-effect">
+                                Бүртгүүлэх
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="detail">
+            <div class="container">
+                <div class="detail-container">
+                    <div class="detail-images">
+                        <img src="assets/images/detail.png" width="100%">
+                        <img src="assets/images/1.png" width="100%">
+                        <img src="assets/images/2.png" width="100%">
+                    </div>
+                    <div class="detail-info">
+                        <div class="border">
+                            <div class="name-price">
+                                <div class="name">
+                                    <span>PARKVILLA</span>
+                                    <p>1,300,000 ₮</p>
+                                    <b>34м2 - 75м2 / 3 өрөө байр</b><br />
+                                    <b>Баянзүрх дүүрэг, 2-р хороо, 34А байр, 7 давхар</b>
+                                </div>
+                                <div class="icons">
+                                    <i class="material-icons">favorite_border</i>
+                                    <i class="material-icons">share</i>
+                                </div>
+                            </div>
+                            <div class="tags">
+                                <div class="tag bgrey" data-toggle="modal" data-target="#tagmodal">
+                                    2018 онд бариглсан
+                                </div>
+                                <div class="tag bgrey">
+                                    Захиалагч
+                                </div>
+                                <div class="tag bgrey">
+                                    Гүйцэтгэгч
+                                </div>
+                                <div class="tag bgrey">
+                                    Хийцлэл
+                                </div>
+                                <div class="tag bgrey">
+                                    12 давхар барилга
+                                </div>
+                                <div class="tag bgrey">
+                                    Гадна фасад
+                                </div>
+                                <div class="tag bgrey">
+                                    Тэсвэртэй баллын хэмжээ
+                                </div>
+                                <div class="tag bgrey">
+                                    Цахилгаан шатны тоо
+                                </div>
+                                <div class="tag bblue" data-toggle="modal" data-target="#tagmodal1">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblue">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bblue">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblue">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bblue">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblue">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bblue">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblue">
+                                    Цонхны хэмжээ
+                                </div>
+
+                                <div class="tag bgreen">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bgreen">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bgreen">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bgreen">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bgreen">
+                                    Цонхны хэмжээ
+                                </div>
+
+                                <div class="tag bblack">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bblack">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblack">
+                                    Цонхны хэмжээ
+                                </div>
+                                <div class="tag bblack">
+                                    Таазны өндөр
+                                </div>
+                                <div class="tag bblack">
+                                    Цонхны хэмжээ
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border">
+                            <div class="agent-header">
+                                <div class="agent-pro">
+                                    <div class="agent-icon"></div>
+                                    <div class="agent-name">
+                                        <p>Баярцогт</p>
+                                        <span>агент</span>
+                                    </div>
+                                </div>
+                                <div class="agent-phone">
+                                    <i class="material-icons">local_phone</i> 8888 9000
+                                </div>
+                            </div>
+                            <div class="agent-image">
+                                <img src="assets/images/agent-image.png">
+                                <img src="assets/images/agent-image.png">
+                                <img src="assets/images/agent-image.png">
+                                <img src="assets/images/agent-image.png">
+                                <img src="assets/images/agent-image.png">
+                            </div>
+                        </div>
+                        <div class="border">
+                            <h3>Бүрдүүлэх бичиг баримтууд</h3>
+                            <ul>
+                                <li>
+                                    <span>#</span> Зээлийн хүсэлт
+                                </li>
+                                <li>
+                                    <span>#</span> Иргэний үнэмлэх
+                                </li>
+                                <li>
+                                    <span>#</span> 1 хувь цээж зураг
+                                </li>
+                                <li>
+                                    <span>#</span> Оршин суугаа хорооны тодорхойлолт
+                                </li>
+                                <li>
+                                    <span>#</span> Нийгмийн даатгалын дэвтэр
+                                </li>
+                                <li>
+                                    <span>#</span> Ажлын газрын тодорхойлолт
+                                </li>
+                                <li>
+                                    <span>#</span> Хөдөлмөрийн гэрээ
+                                </li>
+                                <li>
+                                    <span>#</span> Хувиараа бизнес эрхэлдэг бол бизнесийн үйл ажиллагаатай
+                                    холбоотой бичиг баримтууд
+                                </li>
+                                <li>
+                                    <span>#</span> Өрхийн орлогыг баталгаажуулах бичиг баримт
+                                </li>
+                            </ul>
+                            <a href="">
+                                Дэлгэрэнгүй
+                            </a>
+                            <button>Зээлийн хүсэлт</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-menus">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a href="">
+                                Эхлэл
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Бид
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Хамтрах
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Төлбөрийн боломж
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Агент
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Компани
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Холбогдох
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2019 <span class="blue-color">Research</span>. Made with love by Research. All Rights Reserve</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-behance"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="tagmodal" tabindex="-1" role="dialog" aria-labelledby="tagmodalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-top">
+                        <p>
+                             <b>Your data stays safe.</b>
+                        </p>
+                    </div>
+                    <p style="font-size: 13px; text-align: justify;line-height: 20px;">
+                        You may be done with your device, but chances are it still has more to give. If it’s in good
+                        shape, we’ll help it go to a new owner. If not, we’ll send it to our recycling partner, so we
+                        can save more precious materials and take less from the earth. And if it’s an iPhone, it could
+                        even go to Daisy, our disassembly robot that can efficiently recover the resources inside.
+
+                        Daisy, our disassembly robot that can efficiently recover the resources inside.You may be done
+                        with your device, but chances are it still has more to give. If it’s in good shape, we’ll help
+                        it go to a new owner. If not, we’ll send it to our recycling partner, so we can save more
+                        precious materials and take less from the earth. And if it’s an iPhone, it could even go to
+                        Daisy, our disassembly robot that can efficiently recover the resources inside.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="tagmodal1" tabindex="-1" role="dialog" aria-labelledby="tagmodal1Label"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-top">
+                        <p>
+                             <b>Your data stays safe.</b>
+                        </p>
+                    </div>
+                    <img src="assets/images/1.png" width="100%">
+                    <p style="font-size: 13px; text-align: justify;line-height: 20px;">
+                        You may be done with your device, but chances are it still has more to give. If it’s in good
+                        shape, we’ll help it go to a new owner. If not, we’ll send it to our recycling partner, so we
+                        can save more precious materials and take less from the earth. And if it’s an iPhone, it could
+                        even go to Daisy, our disassembly robot that can efficiently recover the resources inside.
+
+                        Daisy, our disassembly robot that can efficiently recover the resources inside.You may be done
+                        with your device, but chances are it still has more to give. If it’s in good shape, we’ll help
+                        it go to a new owner. If not, we’ll send it to our recycling partner, so we can save more
+                        precious materials and take less from the earth. And if it’s an iPhone, it could even go to
+                        Daisy, our disassembly robot that can efficiently recover the resources inside.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
