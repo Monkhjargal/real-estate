@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UB ASSET MANAGMENT</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+    <link rel="shortcut icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.google.com" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function preventsButton(e) {
+            e.preventDefault();
+        }
+        $(function () {
+            $(document).ready(function () {
+                $('.tabs').tabs();
+            });
+            $('select').formSelect();
+            $(window).scroll(function () {
+                var topPos = $(this).scrollTop();
+                if (topPos > 30) {
+                    $('header').addClass('scrolled')
+                } else {
+                    $('header').removeClass('scrolled')
+                }
+            });
+
+            $('.loan-step').on('click', function (e) {
+                e.preventDefault();
+                $('.step1').hide();
+                $('.step2').show();
+            });
+
+            $('.loan-step1').on('click', function (e) {
+                e.preventDefault();
+                $('.step2').hide();
+                $('.step3').show();
+                $('.steps').hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="header with-search logged">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="search-group">
+                            <input type="search" name="" id=""
+                                placeholder="Дүүрэг, Хороо болон хотхоны нэрийг оруулна уу!" />
+                        </div>
+                        <div class="group-button">
+                            <a class="btn-floating"><i class="material-icons">favorite_border</i></a>
+                            <a class="btn-floating"><i class="material-icons">shopping_basket</i></a>
+                            <div class="btn-floating blue-border profile-logged">
+                                <i class="material-icons blue-background">person_outline</i>
+                                <div class="profile-dropdown">
+                                    <ul>
+                                        <li>
+                                            <i class="material-icons blue-background">person_outline</i>
+                                            <span>zaya@gmail.com</span>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Профайл
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Зээлийн хүсэлт
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Таалагдсан
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Агентууд
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Бүртдүүлэх материалууд
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Системээс гарах
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="contents">
+            <div class="grid-four">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 margin-left-0 padding-left-0">
+                            <div class="profile-menu">
+                                <div class="profile-header">
+                                    <div class="profile-img">
+                                        <img src="assets/images/pro.png">
+                                        <span>zaya@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="profile-nav">
+                                    <ul>
+                                        <li>
+                                            <a href="profile.html">
+                                                Профайл
+                                            </a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="">
+                                                Зээлийн хүсэлт
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="profile-wish.html">
+                                                Таалагдсан
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="profile-documents.html">
+                                                Бүртдүүлэх материалууд
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="profile-agents.html">
+                                                агентүүд
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 margin-right-0 padding-right-0" id="loan">
+
+                            <div class="col s12 profile-tabs">
+                                <ul class="tabs">
+                                    <li class="tab col s4"><a href="#loantab">Зээл</a></li>
+                                    <li class="tab col s4"><a class="" href="#mainloan">Үндсэн зээлдэгч</a></li>
+                                    <li class="tab col s4"><a href="#partloan">Хамтран зээлдэгч</a></li>
+                                </ul>
+                            </div>
+                            <br />
+                            <br />
+                            <div id="loantab" class="col s12">
+
+                                <div class="profile-container step1">
+                                    <div class="form-step">
+                                        <div class="steps">
+                                            <div class="step active">
+                                                1
+                                            </div>
+                                            <div class="step">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-top">
+                                        <img src="assets/images/loan.png">
+                                        <p>
+                                            <b style="color: #000; font-size: 17px;">Баяр хүргэе</b><br />
+                                            Та зээл авах боломжтой бөгөөд нэмэлт мэдээллүүдийг бөглөсөнөөр манай
+                                            зээлийн<br />
+                                            үйлчилгээнд хамрагдахад илүү хялбар болох болно.
+                                        </p>
+                                    </div>
+                                    <div class="profile-form " data-step='1'>
+                                        <div class="row">
+                                            <form class="custom-form col s12 loan">
+                                                <div class="row">
+                                                    <div class="input-field col s4">
+                                                        <i class="material-icons prefix">₮</i>
+                                                        <input id="icon_prefix" type="text" class="validate"
+                                                            value="159,000,000">
+                                                        <label for="icon_prefix">Зээлийн хэмжээ</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <i class="material-icons prefix">%</i>
+                                                        <input id="icon_telephone" type="tel" class="validate"
+                                                            value="₮ 39,000,000">
+                                                        <label for="icon_telephone"> Урьдчилгаа</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <select>
+                                                            <option value="1">Тийм</option>
+                                                            <option value="2">Үгүй</option>
+                                                        </select>
+                                                        <label>Нийгмийн даатгал</label>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="input-field col s4">
+                                                        <i class="material-icons prefix">₮</i>
+                                                        <input id="icon_prefix" type="text" class="validate"
+                                                            value="1,500,000">
+                                                        <label for="icon_prefix">Өрхийн орлого</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <i class="material-icons prefix">₮</i>
+                                                        <input id="icon_telephone" type="tel" class="validate"
+                                                            value="₮ 700,000">
+                                                        <label for="icon_telephone">Өрхийн зарлага</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <select>
+                                                            <option value="1">Тийм</option>
+                                                            <option value="2">Үгүй</option>
+                                                        </select>
+                                                        <label>Зээлтэй эсэх</label>
+                                                    </div>
+                                                </div>
+                                                <a class="active loan-step">Үргэлжлүүлэх</a>
+                                                <!-- <button>Цуцлах</button> -->
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="profile-container step2">
+                                    <div class="form-step">
+                                        <div class="steps">
+                                            <div class="step">
+                                                1
+                                            </div>
+                                            <div class="step active">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-top">
+                                        <img src="assets/images/loan2.png">
+                                        <p>
+                                            Та хувийн мэдээллээ үнэн зөв бөглөнө үү
+                                        </p>
+                                    </div>
+                                    <div class="profile-form " data-step='1'>
+                                        <div class="row">
+                                            <form class="custom-form col s12 loan">
+                                                <div class="row">
+                                                    <div class="input-field col s4">
+                                                        <input id="icon_prefix" type="text" class="validate"
+                                                            value="Баярцогт">
+                                                        <label for="icon_prefix">Овог</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <input id="icon_telephone" type="tel" class="validate"
+                                                            value="Мандах">
+                                                        <label for="icon_telephone">Нэр</label>
+                                                    </div>
+                                                    <div class="input-field col s4">
+                                                        <input id="icon_telephone" type="tel" class="validate"
+                                                            value="НХ99880099">
+                                                        <label for="icon_telephone">Регистерийн дугаар</label>
+                                                    </div>
+                                                </div>
+                                                <a class="active loan-step1">Үргэлжлүүлэх</a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="profile-container step3">
+                                    <div class="form-step">
+                                        <div class="steps">
+                                            <div class="step">
+                                                1
+                                            </div>
+                                            <div class="step">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-top">
+                                        <img src="assets/images/loan3.png">
+                                        <p>
+                                            Таны зээлийн хүсэлт амжилттай илгээгдсэн. <br />
+                                            Хүсэлтийн хариу 7-14 хоногийн дараа ирэх ба <br />
+                                            танд мэйлээр мэдэгдэх болно.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mainloan" class="col s12">
+
+                                <div class="profile-container">
+                                    <div class="profile-form mainloan">
+                                        <div class="row">
+                                            <form class="custom-form col s12">
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <img src="assets/images/detail.png" width="100%"
+                                                                class="form-img">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эцгийн нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Оршин суугаа хаягын төрөл</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Эзэмшил</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эхийн нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Хот аймаг</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Дүүрэг сум</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Регистер</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Хороо/Баг</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Хороолол/Гудамж</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <p>
+                                                                <label>
+                                                                    <input name="group1" type="radio" checked />
+                                                                    <span>Эрэгтэй</span>
+                                                                </label>
+                                                                <label>
+                                                                    <input name="group1" type="radio" />
+                                                                    <span>Эмэгтэй</span>
+                                                                </label>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label> Гэр бүлийн байдал</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Байр/тоот</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>Суусан хугацаа</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">Орон сууц</option>
+                                                                <option value="2">Option 2</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label>Хаяг өөрчлөлт</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1 удаа</option>
+                                                                <option value="2">2 удаа</option>
+                                                                <option value="3">Option 3</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Утас</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">И-мэйл</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Оршин суугаа хаягтаа бүртгэлтэй эсэх</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                ГЭР БҮЛИЙН ГИШҮҮД
+                                                                <span>Зөвхөн ам бүлд байгаа хүмүүс</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <label>Ам бүлийн тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Овог</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Таны хэн болох</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Регистерийн дугаар</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Албан тушаал</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Утас</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Овог</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Таны хэн болох</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Регистерийн дугаар</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Албан тушаал</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Утас</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3"></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                САДАН ТӨРӨЛ
+                                                                <span>Өөрийн болон эхнэр/нөхрийн эцэг, эх, төрсөн ах эгч
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <label>Садангийн тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Овог</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Нэр</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Таны хэн болох</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Регистерийн дугаар</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Албан тушаал</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Утас</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3"></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                БОЛОВСРОЛ
+                                                                <span>Өөрийн бОЛОРСРОЛЫН ТАЛААРХ ТОВЧ МЭДЭЭЛЭЛ</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <label>Сургуулийн тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Доктор</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Магистр</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Бакалавр</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Тусгай мэргэжил</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Бүрэн дунд </span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Бүрэн бус дунд</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Бага</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Боловсролгүй</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Төгссөн сургууль </label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Хаана</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Элссэн он</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Төгссөн он</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Эзэмшсэн мэргэжил</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3"></div>
+                                                        <div class="col s3"></div>
+                                                        <div class="col s3"></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                АЖИЛ ЭРХЛЭЛТ
+                                                                <span>
+                                                                    ТАНЫ АЖИЛЫН ТУРШИЛГЫН ТОВЧ МЭДЭЭЛЭЛ
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <label>Байгууллагын тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <label for="last_name">байгууллага, албан газарЫН
+                                                                НЭР</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default" />
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Албан тушаал</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Ажилласан хугацаа /он</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                ЭЗЭМШИЖ БУЙ ХӨРӨНГӨ
+                                                                <span>
+                                                                    Үл хөдлөх хөрөнгө, хөдлөх хөрөнгө болон бус
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col s6">
+                                                            <label>Хөрөнгийн тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label for="last_name">Хөрөнгийн төрөл, зориулалт</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default" />
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Худалдаж авсан үнэ</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Зах зээлийн үнэ</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label for="last_name">Зээлийн барьцаанд байгаа эсэх</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s12">
+                                                            <label for="last_name">Оршин байгаа хаяг, марк</label>
+                                                            <input id="last_name" type="text"
+                                                                class="validate browser-default">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-section">
+                                                    <div class="row">
+                                                        <div class="col s6">
+                                                            <p>
+                                                                ЭРГҮҮЛЭН ТӨЛӨХ ЭХ ҮҮСВЭР
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Цалингийн орлогоос</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col s3">
+                                                            <label>
+                                                                <input type="checkbox" />
+                                                                <span>Бизнесийн орлогоос</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col s12">
+                                                            <label>Өрхийн орлоготой гишүүдийн тоо</label>
+                                                            <select class="browser-default">
+                                                                <option value="" disabled selected>Сонгох
+                                                                </option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-footer">
+                                                    <button class="btn waves-effect waves-light" type="submit"
+                                                        name="action">Хадгалах
+                                                        <i class="material-icons right">send</i>
+                                                    </button>
+                                                    <button class="btn waves-effect waves-light" type="submit"
+                                                        name="action">Цуцлах
+                                                        <i class="material-icons right">cancel</i>
+                                                    </button>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="partloan" class="col s12">
+
+                                <div class="profile-container">
+
+                                    <div class="profile-container">
+                                        <div class="profile-form mainloan">
+                                            <div class="row">
+                                                <form class="custom-form col s12">
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <img src="assets/images/detail.png" width="100%"
+                                                                    class="form-img">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эцгийн нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Оршин суугаа хаягын төрөл</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Эзэмшил</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эхийн нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Хот аймаг</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Дүүрэг сум</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Регистер</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Хороо/Баг</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Хороолол/Гудамж</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <p>
+                                                                    <label>
+                                                                        <input name="group1" type="radio" checked />
+                                                                        <span>Эрэгтэй</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input name="group1" type="radio" />
+                                                                        <span>Эмэгтэй</span>
+                                                                    </label>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label> Гэр бүлийн байдал</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Байр/тоот</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>Суусан хугацаа</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">Орон сууц</option>
+                                                                    <option value="2">Option 2</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label>Хаяг өөрчлөлт</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1 удаа</option>
+                                                                    <option value="2">2 удаа</option>
+                                                                    <option value="3">Option 3</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Утас</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">И-мэйл</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Оршин суугаа хаягтаа бүртгэлтэй эсэх</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    ГЭР БҮЛИЙН ГИШҮҮД
+                                                                    <span>Зөвхөн ам бүлд байгаа хүмүүс</span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <label>Ам бүлийн тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Овог</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Таны хэн болох</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Регистерийн дугаар</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Албан тушаал</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Утас</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3"></div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Овог</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Таны хэн болох</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Регистерийн дугаар</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Албан тушаал</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Утас</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    САДАН ТӨРӨЛ
+                                                                    <span>Өөрийн болон эхнэр/нөхрийн эцэг, эх, төрсөн ах
+                                                                        эгч
+                                                                    </span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <label>Садангийн тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Овог</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Нэр</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Таны хэн болох</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Регистерийн дугаар</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эрхэлдэг ажил/Сургууль</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Албан тушаал</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Утас</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    БОЛОВСРОЛ
+                                                                    <span>Өөрийн бОЛОРСРОЛЫН ТАЛААРХ ТОВЧ
+                                                                        МЭДЭЭЛЭЛ</span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <label>Сургуулийн тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Доктор</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Магистр</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Бакалавр</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Тусгай мэргэжил</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Бүрэн дунд </span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Бүрэн бус дунд</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Бага</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Боловсролгүй</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Төгссөн сургууль </label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Хаана</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Элссэн он</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Төгссөн он</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Эзэмшсэн мэргэжил</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3"></div>
+                                                            <div class="col s3"></div>
+                                                            <div class="col s3"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    АЖИЛ ЭРХЛЭЛТ
+                                                                    <span>
+                                                                        ТАНЫ АЖИЛЫН ТУРШИЛГЫН ТОВЧ МЭДЭЭЛЭЛ
+                                                                    </span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <label>Байгууллагын тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <label for="last_name">байгууллага, албан газарЫН
+                                                                    НЭР</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default" />
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Албан тушаал</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Ажилласан хугацаа /он</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    ЭЗЭМШИЖ БУЙ ХӨРӨНГӨ
+                                                                    <span>
+                                                                        Үл хөдлөх хөрөнгө, хөдлөх хөрөнгө болон бус
+                                                                    </span>
+                                                                </p>
+                                                            </div>
+                                                            <div class="col s6">
+                                                                <label>Хөрөнгийн тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label for="last_name">Хөрөнгийн төрөл,
+                                                                    зориулалт</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default" />
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Худалдаж авсан үнэ</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Зах зээлийн үнэ</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label for="last_name">Зээлийн барьцаанд байгаа
+                                                                    эсэх</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s12">
+                                                                <label for="last_name">Оршин байгаа хаяг, марк</label>
+                                                                <input id="last_name" type="text"
+                                                                    class="validate browser-default">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-section">
+                                                        <div class="row">
+                                                            <div class="col s6">
+                                                                <p>
+                                                                    ЭРГҮҮЛЭН ТӨЛӨХ ЭХ ҮҮСВЭР
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Цалингийн орлогоос</span>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col s3">
+                                                                <label>
+                                                                    <input type="checkbox" />
+                                                                    <span>Бизнесийн орлогоос</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col s12">
+                                                                <label>Өрхийн орлоготой гишүүдийн тоо</label>
+                                                                <select class="browser-default">
+                                                                    <option value="" disabled selected>Сонгох
+                                                                    </option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-footer">
+                                                        <button class="btn waves-effect waves-light" type="submit"
+                                                            name="action">Хадгалах
+                                                            <i class="material-icons right">send</i>
+                                                        </button>
+                                                        <button class="btn waves-effect waves-light" type="submit"
+                                                            name="action">Цуцлах
+                                                            <i class="material-icons right">cancel</i>
+                                                        </button>
+                                                    </div>
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="footer-menus">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a href="">
+                                Эхлэл
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Бид
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Хамтрах
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Төлбөрийн боломж
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Агент
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Компани
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Холбогдох
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2019 <span class="blue-color">Research</span>. Made with love by Research. All Rights Reserve</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-behance"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
