@@ -639,4 +639,34 @@ ul {
     border: solid 1px #ededed;
     border-radius: 3px;
 }
+
+.custom-basic-select.icon .custom-select-options.single>div {
+    display: block;
+}
+
+.custom-basic-select.icon .custom-select-options.single>div .option {
+    border-bottom: solid 1px #ededed;
+    text-align: left !important;
+    padding-left: 10px;
+}
+
+.no-icon {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.no-icon .icon-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.no-icon .icon-container p {
+    height: 100%;
+    display: block;
+}
+
+.no-icon>div {
+    margin-right: 10px;
+    min-width: 160px;
 }

@@ -1,0 +1,530 @@
+<div class="no-icon">
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Баригдсан <br /> он
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='2001'>
+                                            2001
+                                        </div>
+                                        <div class="option" data-value='2002'>
+                                            2002
+                                        </div>
+                                        <div class="option" data-value='2003'>
+                                            2003
+                                        </div>
+                                        <div class="option" data-value='2004'>
+                                            2004
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Зохион <br />байгуулалт
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Барилгын <br />үнэлгээ
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Барилгын <br />талбай
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Суурь <br /> хийцлэл
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Фасадны <br /> төрөл
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Таазны <br /> өндөр
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Цонхны <br /> материал
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Цонхны <br /> хэмжээ
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Балконы <br /> тоо
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Балконы <br /> төрөл
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Халаалтын <br /> шугам
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Усан <br /> хангамж
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Тэсвэртэй <br /> баллын хэмжээ
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Гаднах <br /> зогсоол
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Үйлчилгээний төв <br /> байгаа эсэх
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="custom-basic-select icon">
+                                <div class="custom-select-title">
+                                    <div class="icon-container">
+                                        <!-- <img src="assets/images/icons/n6.png" alt=""> -->
+                                        <p>
+                                            Барилгын <br /> явц
+                                        </p>
+                                    </div>
+                                    <div class="selected-value"></div>
+                                </div>
+
+                                <div class="custom-select-options single">
+                                    <div class="">
+                                        <div class="option" data-value='Төмөр бетон каркас'>
+                                            Төмөр бетон каркас
+                                        </div>
+                                        <div class="option" data-value='Бүрэн цутгамал'>
+                                            Бүрэн цутгамал
+                                        </div>
+                                        <div class="option" data-value='Угсармал'>
+                                            Угсармал
+                                        </div>
+                                        <div class="option" data-value='Модон'>
+                                            Модон
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
