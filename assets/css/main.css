@@ -1458,6 +1458,7 @@ header.scrolled .header .group-button>.profile-logged .profile-dropdown {
     justify-content: space-between;
     margin: 20px 0px;
     margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .border h3 {
@@ -1748,9 +1749,10 @@ ul.tabs {
 }
 
 @media (max-width: 1024px) {
+
     .mainloan .custom-form input,
     .mainloan .custom-form select {
-        margin-bottom: 10px;    
+        margin-bottom: 10px;
     }
 
     .mainloan .form-footer button {
@@ -1759,10 +1761,12 @@ ul.tabs {
         margin-bottom: 10px;
         /* margin-left: 5%; */
     }
+
     .mainloan .form-img {
         position: relative;
         margin-bottom: 20px;
     }
+
     .mainloan .row .col.s3,
     .mainloan .row .col.s6,
     .mainloan .row .col.s12 {
@@ -1770,6 +1774,7 @@ ul.tabs {
         margin: auto;
         margin-left: 5%;
     }
+
     .profile-tabs {
         width: 100% !important;
         margin-left: 0 !important;
@@ -1788,9 +1793,9 @@ ul.tabs {
     }
 
     .header .group-button a {
-        width: 80px;
+        /* width: 80px; */
         min-width: 50px;
-        padding: 0;
+        padding: 0px 10px;
         font-size: 10px;
     }
 
@@ -1966,13 +1971,38 @@ ul.tabs {
     .group-button .profile-logged .profile-dropdown ul li a {
         width: 100%;
     }
+
+    .modal-dialog.big {
+        max-width: 95%;
+        width: 95%;
+        margin: auto;
+    }
+}
+
+.modal-dialog.big {
+    max-width: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#loanmodal .modal-dialog,
+#loanmodal .modal-content,
+#loanmodal .modal-body,
+#loanmodal .modal-body .col-md-12 {
+    padding: 0;
+    z-index: 1;
+}
+
+#loanmodal .modal-content button {
+    z-index: 10;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .header .group-button a {
-        width: 80px;
-        min-width: 50px;
-        padding: 0;
+        /* width: 80px; */
+        /* min-width: 50px; */
+        padding: 0px 10px;
     }
 
     .top-items {
